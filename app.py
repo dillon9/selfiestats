@@ -4,6 +4,7 @@ from flask import Flask, redirect, url_for, render_template, request
 from werkzeug import secure_filename
 import indicoio
 
+#hi
 
 app = Flask(__name__)
 ALLOWED_EXTENSIONS = set(["png","jpg","jpeg"])
@@ -88,4 +89,5 @@ def send_to_indico():
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    from os import environ
+    app.run(debug=False, port=environ.get("PORT", 5000), processes=2)

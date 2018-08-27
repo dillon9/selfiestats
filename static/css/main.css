@@ -1,0 +1,80 @@
+html > body {
+    background: #333;
+}
+
+#form_holder {
+    text-align: center;
+    margin-top:40px;
+}
+
+#form_holder > form {
+    width:98%;
+    display: inline-block;
+}
+#form_holder > form > * {
+    padding:12px;
+    border:none;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+}
+
+#form_holder textarea {
+    height:150px;
+    min-width: 300px;
+    width:50%;
+    outline:none;
+}
+
+#form_holder input{
+    min-width:150px;
+    margin-top:30px;
+    background:#E6E6E6;
+    color:#1A1A1A;
+}
+
+#result {
+    max-width:90%;
+    width:1000px;
+    display: block;
+    margin:30px auto;
+}
+
+#form_holder2 {
+    text-align: center;
+    margin-top:40px;
+}
+
+#form_holder2 > form {
+    display: inline-block;
+}
+#form_holder2 > form > * {
+    padding:12px;
+    border:none;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+}
+
+#form_holder2 input{
+    min-width:150px;
+    margin-top:30px;
+    background:#E6E6E6;
+    color:#1A1A1A;
+}
+
+.mainText{
+    color:white;
+    padding-left:3%;
+    padding-top:1%;
+}
+
+h4{
+    color:white;
+}
+
+.foo{
+    box-shadow:white;
+}
